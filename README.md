@@ -2,10 +2,10 @@
 
 This repository contains files which can be used to run High-T MD simulations and perform clustering analysis in Accurate Prediction for Protein-Peptide Binding Based on High-Temperature Molecular Dynamics Simulations.
 
-#Requirements
+## Requirements
 Amber16
 
-#Example
+## Example
 Run MD simulations at 600 K with RSFF2C force field
 ```
 export CUDA_VISIBLE_DEVICES=0
