@@ -1,0 +1,8 @@
+
+parm 1sfi.ff14SB.nosol.parmtop
+trajin 1sfi.RSFF2C.600K.nc
+autoimage
+parm 1sfi.holo.pdb
+reference 1sfi.holo.pdb parm 1sfi.holo.pdb
+rmsd :1-2,17-27,37-43,55,76-82,84,86,118-125,128-132,138,151-157,160-165,170-179,181,190-199,202-207@CA,C,O,N ref 1sfi.holo.pdb
+cluster dpeaks epsilon 2.5 dvdfile 1sfi.RSFF2C.600K.dpeaks.dvd.dat sieve 20 rms :224-237@CA,C,O,N nofit

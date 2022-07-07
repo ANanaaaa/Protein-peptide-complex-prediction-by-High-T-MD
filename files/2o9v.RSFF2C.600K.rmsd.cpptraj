@@ -1,0 +1,8 @@
+
+parm 2o9v.ff14SB.nosol.parmtop
+trajin 2o9v.RSFF2C.600K.nc
+autoimage
+parm 2o9v.holo.pdb
+reference 2o9v.holo.pdb parm 2o9v.holo.pdb
+rmsd :11-19,21-25,27,35-43,53-61@CA,C,O,N ref 2o9v.holo.pdb
+rmsd :69-76@CA,C,O,N nofit ref 2o9v.holo.pdb out 2o9v.RSFF2C.600K.rmsd.dat

@@ -1,0 +1,8 @@
+
+parm 2v8c.ff14SB.nosol.parmtop
+trajin 2v8c.RSFF2C.600K.nc
+autoimage
+parm 2v8c.holo.pdb
+reference 2v8c.holo.pdb parm 2v8c.holo.pdb
+rmsd :1-15,21-33,105,107-108,110,125-139@CA,C,O,N ref 2v8c.holo.pdb
+cluster dpeaks epsilon 2.5 dvdfile 2v8c.RSFF2C.600K.dpeaks.dvd.dat sieve 20 rms :141-151@CA,C,O,N nofit

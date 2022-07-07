@@ -1,0 +1,8 @@
+
+parm 3g2s.ff14SB.nosol.parmtop
+trajin 3g2s.RSFF2C.600K.nc
+autoimage
+parm 3g2s.holo.pdb
+reference 3g2s.holo.pdb parm 3g2s.holo.pdb
+rmsd :35,39,42,50,73-74,76-99,110,113,123-139@CA,C,O,N ref 3g2s.holo.pdb
+cluster dpeaks epsilon 2.5 dvdfile 3g2s.RSFF2C.600K.dpeaks.dvd.dat sieve 20 rms :141-149@CA,C,O,N nofit

@@ -1,0 +1,8 @@
+
+parm 2vzg.ff14SB.nosol.parmtop
+trajin 2vzg.RSFF2C.600K.nc
+autoimage
+parm 2vzg.holo.pdb
+reference 2vzg.holo.pdb parm 2vzg.holo.pdb
+rmsd :1-25,28-29,40,97,109,112-113,115-126@CA,C,O,N ref 2vzg.holo.pdb
+rmsd :128-140@CA,C,O,N nofit ref 2vzg.holo.pdb out 2vzg.RSFF2C.600K.rmsd.dat

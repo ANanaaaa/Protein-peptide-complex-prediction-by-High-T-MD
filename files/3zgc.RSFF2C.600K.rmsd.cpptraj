@@ -1,0 +1,8 @@
+
+parm 3zgc.ff14SB.nosol.parmtop
+trajin 3zgc.RSFF2C.600K.nc
+autoimage
+parm 3zgc.holo.pdb
+reference 3zgc.holo.pdb parm 3zgc.holo.pdb
+rmsd :8-15,37-41,55-60,62-65,90-92,106-107,112,136-140,151-160,182-187,199-207,229-234,246-254,276-280@CA,C,O,N ref 3zgc.holo.pdb
+rmsd :286-292@CA,C,O,N nofit ref 3zgc.holo.pdb out 3zgc.RSFF2C.600K.rmsd.dat

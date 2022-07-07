@@ -1,0 +1,8 @@
+
+parm 5n85.ff14SB.nosol.parmtop
+trajin 5n85.RSFF2C.600K.nc
+autoimage
+parm 5n85.holo.pdb
+reference 5n85.holo.pdb parm 5n85.holo.pdb
+rmsd :11-12,15,30-47,52-61,64,84-98,117-121@CA,C,O,N ref 5n85.holo.pdb
+rmsd :124-132@CA,C,O,N nofit ref 5n85.holo.pdb out 5n85.RSFF2C.600K.rmsd.dat
