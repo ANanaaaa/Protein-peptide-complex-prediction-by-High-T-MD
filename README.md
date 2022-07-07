@@ -1,6 +1,6 @@
 # Protein-peptide-complex-prediction-by-High-T-MD
 
-This repository contains files which can be used to run High-T MD simulations and perform clustering analysis in Accurate Prediction for Protein-Peptide Binding Based on High-Temperature Molecular Dynamics Simulations.
+This repository contains files which can be used to run High-T MD simulations and perform clustering analysis in Accurate Prediction for **Protein-Peptide Binding Based on High-Temperature Molecular Dynamics Simulations**.
 
 ## Requirements
 Amber16+AmberTools16
